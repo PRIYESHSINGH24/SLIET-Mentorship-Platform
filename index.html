@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIET Mentorship Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <header>
+
+        <h1>SLIET Mentorship Platform</h1>
+        <input type="text" id="searchInput" placeholder="Search by mentor or expertise...">
+        <select id="expertiseFilter">
+            <option value="all">All</option>
+            <option value="Web Development">Web Development</option>
+            <option value="AI">AI</option>
+            <option value="Data Science">Data Science</option>
+        </select>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Mentors</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+
+    </header>
+
+    <section id="mentors">
+        <h2>Meet Our Mentors</h2>
+        <div class="mentor-container">
+            <!-- Faculty Profiles will go here -->
+            <div class="mentor-profile">
+                <h3>Dr. John Doe</h3>
+                <p>Expertise: Data Science, Machine Learning</p>
+                <p>Available Slots:</p>
+                <ul>
+                    <li>10:00 AM - 11:00 AM</li>
+                    <li>02:00 PM - 03:00 PM</li>
+                </ul>
+                <button>Book a Slot</button>
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
